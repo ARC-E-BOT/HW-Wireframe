@@ -11,38 +11,58 @@ body {
 header, nav, section, aside, footer{
     background-color: #ebebeb
 }
+
 article{
     color: black;
     background-color: gray;
     width: 90%;
-    margin: auto; /*this centers the article in the section*/
+    margin: auto; /*this centers the article in the section WOO GOOGLE!!!!*/
+    margin-top: 50px; /*things that come later are used on top of other attributes as we learned in class*/
 }
+
 section{
     float: left;
-    width: 475px;
+    width: 495px;
+    height: 300px;
     margin-bottom: 10px;
 }
+
 aside{
     float: right;
-    width: 475px;
-    margin-left: 10px;
+    width: 445px;
+    height: 300px;
+    margin-left: 20px;
 }
+
 header{
     margin: 0;
     margin-bottom: 10px;
     padding: 20px;
 }
+
 nav{
     margin-bottom: 20px;
     padding: 20px;
 }
 
 h2{
+    margin: auto;
     margin-top: 33px;
     background: #ebebeb;
     color: #777;
-    float: left;
-    width: 33%;
+    padding: 10px;
+    width: 90%;
+}
+
+p{
+    margin: auto;
+    margin-top:10px;
+    background: #ebebeb;
+    color: #777;
+    padding: 10px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .clearfix {
